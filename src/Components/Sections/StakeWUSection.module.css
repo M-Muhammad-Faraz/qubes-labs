@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+#stakeWU {
+  transform: translateY(200px);
+  transition: all 600ms linear;
+}
+.stakesbg {
+  background-image: url("../../Assets/Background/2.png");
+  background-position: 0% 0%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+.stakeWUSect{}
+.stakeWUSect h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: #1092b2;
+}
+.stakeWUSect h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+}
+.griddisp {
+  display: flex;
+  flex-wrap: wrap;
+}
+.griddisp > * {
+  margin: 2% 1%;
+  padding: 10px;
+  border: 1px solid #c8c8c8;
+  background-color: white;
+  border-radius: 10px;
+  flex: 20%;
+}
+.fadeIn {
+  opacity: 0;
+  transition: opacity 1000ms linear;
+}
+.fadeIn.appear {
+  opacity: 1;
+}

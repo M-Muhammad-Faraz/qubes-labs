@@ -1,0 +1,36 @@
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea {
+  width: 100%; /* Full width */
+  padding: 2px 2px 10px 2px; /* Some padding */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  border: none;
+}
+.contactForm input[type="text"]::placeholder,
+.contactForm input[type="email"]::placeholder,
+.contactForm textarea::placeholder {
+  font-size: 12px;
+}
+.contactForm input[type="text"]:focus,
+.contactForm input[type="email"]:focus,
+.contactForm textarea:focus {
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  outline: skyblue;
+  box-shadow: 0px 0px 20px rgb(82, 162, 194);
+}
+/* Style the submit button with a specific background color etc */
+.contactForm input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.contactForm input[type="submit"]:hover {
+  background-color: #45a049;
+}

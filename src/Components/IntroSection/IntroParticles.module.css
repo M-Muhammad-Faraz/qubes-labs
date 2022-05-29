@@ -1,0 +1,7 @@
+.particlesize {
+  width: inherit !important;
+  height: inherit !important;
+  position: static !important;
+  top: unset !important;
+  left: unset !important;
+}

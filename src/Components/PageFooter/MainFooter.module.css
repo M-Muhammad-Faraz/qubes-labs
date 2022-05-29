@@ -1,0 +1,21 @@
+.mainFooter {
+  margin: 25px 0px;
+}
+.mainFooter a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+}
+.ggwp {
+  margin-bottom: 15px;
+}
+.pa {
+  font-size: 12px;
+}
+.pa span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.gwwp {
+  font-size: 12px;
+}

@@ -1,0 +1,16 @@
+.stakingSecBg {
+  background-image: url("../../Assets/Background/4.png");
+  background-position: 0% 0%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+#stakingSec {
+  transform: translateY(200px);
+  transition: all 600ms linear;
+}
+.stakingSection h1 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #1092b2;
+}

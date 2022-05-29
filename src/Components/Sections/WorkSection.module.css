@@ -1,0 +1,26 @@
+.WorkSecBg {
+  background-image: url("../../Assets/Background/1.png");
+  background-position: 100% 0%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+#workSec {
+  transform: translateY(200px);
+  transition: all 600ms linear;
+}
+.WorkSection h1 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #1092b2;
+}
+.wi {
+  width: -webkit-fill-available;
+}
+.fadeIn {
+  opacity: 0;
+  transition: opacity 800ms linear;
+}
+.fadeIn.appear {
+  opacity: 1;
+}

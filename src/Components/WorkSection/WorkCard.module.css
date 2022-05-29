@@ -1,0 +1,17 @@
+.WorkCard {
+  width: 33.3%;
+  height: 300px;
+  border: 1px #d6dff6 solid;
+}
+.WorkCard h3 {
+  font-size: 130%;
+}
+.WorkCard p {
+  font-size: small;
+}
+.CardBlue {
+  color: #1092b2;
+}
+.CardOrange {
+  color: #fe7d1e;
+}

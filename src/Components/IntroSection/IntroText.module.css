@@ -1,0 +1,30 @@
+
+#introTx {
+  transform: translateY(200px);
+  transition: all 600ms linear;
+}
+
+.IntroText {
+}
+.IntroText button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.IntroText p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.IntroText h1 {
+  font-weight: bold;
+  line-height: 3.6rem;
+}
+.IntroText h1 span {
+  color: #1092b2;
+}
+.fadeIn {
+  opacity: 0;
+  transition: opacity 800ms linear;
+}
+.fadeIn.appear {
+  opacity: 1;
+}

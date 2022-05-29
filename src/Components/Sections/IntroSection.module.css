@@ -1,0 +1,14 @@
+.IntroSection {
+  height: 90vh;
+}
+.ctnr {
+  height: inherit;
+  width: fit-content;
+}
+.fadeIn {
+  opacity: 0;
+  transition: opacity 800ms linear;
+}
+.fadeIn.appear {
+  opacity: 1;
+}

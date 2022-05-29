@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+.getInTouch h2 {
+  font-weight: 700;
+  line-height: 2.8rem;
+  font-size: 38px;
+  color: #1092b2;
+
+  margin-bottom: 20px;
+}
+.getInTouch p {
+  font-size: 14px;
+}

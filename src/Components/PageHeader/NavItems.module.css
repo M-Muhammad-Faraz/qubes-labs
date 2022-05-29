@@ -1,0 +1,20 @@
+.naviItems {
+  margin-top: revert;
+  list-style: none;
+  font-weight: 500;
+}
+.naviItems li {
+  margin: 0 10px;
+  padding: 12px;
+}
+.naviItems a {
+  color: #02293e;
+  text-decoration: none;
+  transition: color 150ms ease-in;
+}
+.naviItems a:visited {
+  color: #02293e;
+}
+.naviItems a:hover {
+  color: #509ecc;
+}
